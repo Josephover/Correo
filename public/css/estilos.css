@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(135deg, #232526 0%, #414345 100%);
+    min-height: 100vh;
+}
+.card-custom {
+    background: #222831;
+    border-radius: 1.5rem;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border: 1px solid rgba(255,255,255,0.1);
+}
+.form-label {
+    color: #212122;
+    font-weight: 500;
+}
+.form-control, .form-control:focus {
+    background: #393e46;
+    color: #f8fafc;
+    border: 1px solid #00adb5;
+}
+.btn-primary {
+    background: linear-gradient(90deg, #00adb5 0%, #00fff5 100%);
+    border: none;
+    color: #222831;
+    font-weight: bold;
+}
+.btn-primary:hover {
+    background: linear-gradient(90deg, #00fff5 0%, #00adb5 100%);
+    color: #222831;
+}
+.card-title {
+    color: #00fff5;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
